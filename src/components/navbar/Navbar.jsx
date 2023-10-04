@@ -1,15 +1,7 @@
 import { Box, Text } from '@chakra-ui/react';
 import React from 'react';
 
-const Menu = () => (
-    <>
-        <a href="">Inicio</a>
-        <a href="">Acerca De</a>
-        <a href="">Tecnologías </a>
-        <a href="">Proyectos</a>
-        <a href="">Contacto</a>
-    </>
-)
+
 
 const Navbar = () => {
     return (
