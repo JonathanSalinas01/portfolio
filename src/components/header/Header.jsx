@@ -9,11 +9,10 @@ import imagen from "../../assets/foto_perfil.png";
 const Header = () => {
     return (
         <Box bg="black" color="white" h={700} pt="2" display='flex'>
-            <Box bg="tomato" w="50%" justifyContent='flex-start' pl='5' pt="8" mt={5} >
+            <Box bg="black" w="50%" justifyContent='center' alignItems='center' pl='5' pt="8" mt="9%" >
                 <Box display='flex' h="100px">
-                    <br />
-                    <br />
                     <Heading as='h1' size='3xl' noOfLines={1}>
+                        
                         Hola, soy <Text as="span" color="purple">Jonathan Salinas</Text>
                     </Heading>
 
@@ -51,7 +50,7 @@ const Header = () => {
                 </Box>
             </Box>
 
-            <Box bg="yellow" w="50%" display="flex" justifyContent='center' alignItems='center' mb={6} pt="8" mt={5} >
+            <Box bg="black" w="50%" display="flex" justifyContent='center' alignItems='center' mb={6} pt="8" mt={5} >
                 <Stack direction='column'>
                     <Box pl={7} ml={4}>
                         <Image
@@ -69,20 +68,7 @@ const Header = () => {
                     </Box>
                 </Stack>
             </Box>
-            <Stack w='100%' h={10} position='absolute' bottom="10px">
-                <Box display='flex' bg="blue" w='100%'>
-                    <Box w={60}><Text>/Encuentrame en</Text></Box>
-                    <Box w={40} h="100%" ml={2} borderRight='1px' borderLeft='1px' borderColor='white' ><a href=''><Icon icon="ri:twitter-fill" width="40" height="40" /></a></Box>
-                    <Box w={40} h="100%" ml={4} borderRight='1px' borderColor='white' ><a href=''><Icon icon="basil:facebook-solid" width="40" height="40" /></a></Box>
-                    <Box w={80} h="100%" ml={600} bg="tomato"  > 
-                       
-                        <a href='' ><Text>@JonathanSalinas01<Icon icon="codicon:github-inverted" width="30" height="30" /></Text></a>
-                       
-                    </Box>
 
-                </Box>
-                
-            </Stack>
         </Box>
 
     )
