@@ -7,14 +7,15 @@ function App() {
 
   return (
     <>
-      <Box  display='flex' justifyContent='space-between' flexDirection='column' bg="#242e47" h={300} color="white" pt={5}>
+      <Box display='flex' justifyContent='space-between' flexDirection='column' bg="#242e47" h={300} color="white" pt={5}>
         <Box w='100%' display='flex' justifyContent='center'>
           <Heading as='h2' size='md' noOfLines={1} w='10%' border='1px' borderColor='gray.200' borderRadius='10px' textAlign='center'>
             Acerca de mi
           </Heading>
-        </Box>
+        </Box> 
+        
 
-        <Box w='100%' display='flex' justifyContent='center'>
+        <Box w='100%' display='flex' justifyContent='center' pb={5} pt={3}>
           <Box w='70%'>
             <Text>
               Soy un desarrollador apasionado, que se especializa en desarrollo el Full-Stack (React.js y Node.js). Soy muy entusiasta cuando se trata de llevar los aspectos

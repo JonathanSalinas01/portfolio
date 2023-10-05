@@ -5,6 +5,7 @@ import './index.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Navbar } from './components/navbar/Navbar.jsx'
 import { Header } from './components/header/Header.jsx'
+import { Section } from './components/section/Section.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Navbar />
       <Header />
       <App />
+      <Section />
     </ChakraProvider>   
   </React.StrictMode>,
 )
